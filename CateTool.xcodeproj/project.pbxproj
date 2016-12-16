@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0EDFDE151E04126500F596C9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EDFDE141E04126500F596C9 /* main.m */; };
+		0EDFDE181E04126500F596C9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EDFDE171E04126500F596C9 /* AppDelegate.m */; };
+		0EDFDE1B1E04126500F596C9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EDFDE1A1E04126500F596C9 /* ViewController.m */; };
+		0EDFDE1E1E04126500F596C9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0EDFDE1C1E04126500F596C9 /* Main.storyboard */; };
+		0EDFDE201E04126500F596C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0EDFDE1F1E04126500F596C9 /* Assets.xcassets */; };
+		0EDFDE231E04126500F596C9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0EDFDE211E04126500F596C9 /* LaunchScreen.storyboard */; };
+		0EDFDE2E1E04126500F596C9 /* CateToolTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EDFDE2D1E04126500F596C9 /* CateToolTests.m */; };
+		0EDFDE391E04126500F596C9 /* CateToolUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EDFDE381E04126500F596C9 /* CateToolUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0EDFDE2A1E04126500F596C9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0EDFDE081E04126500F596C9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0EDFDE0F1E04126500F596C9;
+			remoteInfo = CateTool;
+		};
+		0EDFDE351E04126500F596C9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0EDFDE081E04126500F596C9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0EDFDE0F1E04126500F596C9;
+			remoteInfo = CateTool;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0EDFDE101E04126500F596C9 /* CateTool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CateTool.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0EDFDE141E04126500F596C9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0EDFDE161E04126500F596C9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0EDFDE171E04126500F596C9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0EDFDE191E04126500F596C9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0EDFDE1A1E04126500F596C9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0EDFDE1D1E04126500F596C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0EDFDE1F1E04126500F596C9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0EDFDE221E04126500F596C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0EDFDE241E04126500F596C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0EDFDE291E04126500F596C9 /* CateToolTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CateToolTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0EDFDE2D1E04126500F596C9 /* CateToolTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CateToolTests.m; sourceTree = "<group>"; };
+		0EDFDE2F1E04126500F596C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0EDFDE341E04126500F596C9 /* CateToolUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CateToolUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0EDFDE381E04126500F596C9 /* CateToolUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CateToolUITests.m; sourceTree = "<group>"; };
+		0EDFDE3A1E04126500F596C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0EDFDE0D1E04126500F596C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0EDFDE261E04126500F596C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0EDFDE311E04126500F596C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0EDFDE071E04126500F596C9 = {
+			isa = PBXGroup;
+			children = (
+				0EDFDE121E04126500F596C9 /* CateTool */,
+				0EDFDE2C1E04126500F596C9 /* CateToolTests */,
+				0EDFDE371E04126500F596C9 /* CateToolUITests */,
+				0EDFDE111E04126500F596C9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0EDFDE111E04126500F596C9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0EDFDE101E04126500F596C9 /* CateTool.app */,
+				0EDFDE291E04126500F596C9 /* CateToolTests.xctest */,
+				0EDFDE341E04126500F596C9 /* CateToolUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0EDFDE121E04126500F596C9 /* CateTool */ = {
+			isa = PBXGroup;
+			children = (
+				0EDFDE161E04126500F596C9 /* AppDelegate.h */,
+				0EDFDE171E04126500F596C9 /* AppDelegate.m */,
+				0EDFDE191E04126500F596C9 /* ViewController.h */,
+				0EDFDE1A1E04126500F596C9 /* ViewController.m */,
+				0EDFDE1C1E04126500F596C9 /* Main.storyboard */,
+				0EDFDE1F1E04126500F596C9 /* Assets.xcassets */,
+				0EDFDE211E04126500F596C9 /* LaunchScreen.storyboard */,
+				0EDFDE241E04126500F596C9 /* Info.plist */,
+				0EDFDE131E04126500F596C9 /* Supporting Files */,
+			);
+			path = CateTool;
+			sourceTree = "<group>";
+		};
+		0EDFDE131E04126500F596C9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0EDFDE141E04126500F596C9 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0EDFDE2C1E04126500F596C9 /* CateToolTests */ = {
+			isa = PBXGroup;
+			children = (
+				0EDFDE2D1E04126500F596C9 /* CateToolTests.m */,
+				0EDFDE2F1E04126500F596C9 /* Info.plist */,
+			);
+			path = CateToolTests;
+			sourceTree = "<group>";
+		};
+		0EDFDE371E04126500F596C9 /* CateToolUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0EDFDE381E04126500F596C9 /* CateToolUITests.m */,
+				0EDFDE3A1E04126500F596C9 /* Info.plist */,
+			);
+			path = CateToolUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0EDFDE0F1E04126500F596C9 /* CateTool */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0EDFDE3D1E04126500F596C9 /* Build configuration list for PBXNativeTarget "CateTool" */;
+			buildPhases = (
+				0EDFDE0C1E04126500F596C9 /* Sources */,
+				0EDFDE0D1E04126500F596C9 /* Frameworks */,
+				0EDFDE0E1E04126500F596C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CateTool;
+			productName = CateTool;
+			productReference = 0EDFDE101E04126500F596C9 /* CateTool.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0EDFDE281E04126500F596C9 /* CateToolTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0EDFDE401E04126500F596C9 /* Build configuration list for PBXNativeTarget "CateToolTests" */;
+			buildPhases = (
+				0EDFDE251E04126500F596C9 /* Sources */,
+				0EDFDE261E04126500F596C9 /* Frameworks */,
+				0EDFDE271E04126500F596C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0EDFDE2B1E04126500F596C9 /* PBXTargetDependency */,
+			);
+			name = CateToolTests;
+			productName = CateToolTests;
+			productReference = 0EDFDE291E04126500F596C9 /* CateToolTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0EDFDE331E04126500F596C9 /* CateToolUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0EDFDE431E04126500F596C9 /* Build configuration list for PBXNativeTarget "CateToolUITests" */;
+			buildPhases = (
+				0EDFDE301E04126500F596C9 /* Sources */,
+				0EDFDE311E04126500F596C9 /* Frameworks */,
+				0EDFDE321E04126500F596C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0EDFDE361E04126500F596C9 /* PBXTargetDependency */,
+			);
+			name = CateToolUITests;
+			productName = CateToolUITests;
+			productReference = 0EDFDE341E04126500F596C9 /* CateToolUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0EDFDE081E04126500F596C9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "雨停";
+				TargetAttributes = {
+					0EDFDE0F1E04126500F596C9 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = 9RKAG8L3T6;
+						ProvisioningStyle = Automatic;
+					};
+					0EDFDE281E04126500F596C9 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = 9RKAG8L3T6;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 0EDFDE0F1E04126500F596C9;
+					};
+					0EDFDE331E04126500F596C9 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = 9RKAG8L3T6;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 0EDFDE0F1E04126500F596C9;
+					};
+				};
+			};
+			buildConfigurationList = 0EDFDE0B1E04126500F596C9 /* Build configuration list for PBXProject "CateTool" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0EDFDE071E04126500F596C9;
+			productRefGroup = 0EDFDE111E04126500F596C9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0EDFDE0F1E04126500F596C9 /* CateTool */,
+				0EDFDE281E04126500F596C9 /* CateToolTests */,
+				0EDFDE331E04126500F596C9 /* CateToolUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0EDFDE0E1E04126500F596C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0EDFDE231E04126500F596C9 /* LaunchScreen.storyboard in Resources */,
+				0EDFDE201E04126500F596C9 /* Assets.xcassets in Resources */,
+				0EDFDE1E1E04126500F596C9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0EDFDE271E04126500F596C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0EDFDE321E04126500F596C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0EDFDE0C1E04126500F596C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0EDFDE1B1E04126500F596C9 /* ViewController.m in Sources */,
+				0EDFDE181E04126500F596C9 /* AppDelegate.m in Sources */,
+				0EDFDE151E04126500F596C9 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0EDFDE251E04126500F596C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0EDFDE2E1E04126500F596C9 /* CateToolTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0EDFDE301E04126500F596C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0EDFDE391E04126500F596C9 /* CateToolUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0EDFDE2B1E04126500F596C9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0EDFDE0F1E04126500F596C9 /* CateTool */;
+			targetProxy = 0EDFDE2A1E04126500F596C9 /* PBXContainerItemProxy */;
+		};
+		0EDFDE361E04126500F596C9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0EDFDE0F1E04126500F596C9 /* CateTool */;
+			targetProxy = 0EDFDE351E04126500F596C9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0EDFDE1C1E04126500F596C9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0EDFDE1D1E04126500F596C9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0EDFDE211E04126500F596C9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0EDFDE221E04126500F596C9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0EDFDE3B1E04126500F596C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0EDFDE3C1E04126500F596C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0EDFDE3E1E04126500F596C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9RKAG8L3T6;
+				INFOPLIST_FILE = CateTool/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yuting.CateTool;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0EDFDE3F1E04126500F596C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9RKAG8L3T6;
+				INFOPLIST_FILE = CateTool/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yuting.CateTool;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		0EDFDE411E04126500F596C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 9RKAG8L3T6;
+				INFOPLIST_FILE = CateToolTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yuting.CateToolTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CateTool.app/CateTool";
+			};
+			name = Debug;
+		};
+		0EDFDE421E04126500F596C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 9RKAG8L3T6;
+				INFOPLIST_FILE = CateToolTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yuting.CateToolTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CateTool.app/CateTool";
+			};
+			name = Release;
+		};
+		0EDFDE441E04126500F596C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 9RKAG8L3T6;
+				INFOPLIST_FILE = CateToolUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yuting.CateToolUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CateTool;
+			};
+			name = Debug;
+		};
+		0EDFDE451E04126500F596C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 9RKAG8L3T6;
+				INFOPLIST_FILE = CateToolUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yuting.CateToolUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CateTool;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0EDFDE0B1E04126500F596C9 /* Build configuration list for PBXProject "CateTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0EDFDE3B1E04126500F596C9 /* Debug */,
+				0EDFDE3C1E04126500F596C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0EDFDE3D1E04126500F596C9 /* Build configuration list for PBXNativeTarget "CateTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0EDFDE3E1E04126500F596C9 /* Debug */,
+				0EDFDE3F1E04126500F596C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0EDFDE401E04126500F596C9 /* Build configuration list for PBXNativeTarget "CateToolTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0EDFDE411E04126500F596C9 /* Debug */,
+				0EDFDE421E04126500F596C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0EDFDE431E04126500F596C9 /* Build configuration list for PBXNativeTarget "CateToolUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0EDFDE441E04126500F596C9 /* Debug */,
+				0EDFDE451E04126500F596C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0EDFDE081E04126500F596C9 /* Project object */;
+}
